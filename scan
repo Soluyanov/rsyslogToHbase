@@ -1,0 +1,21 @@
+hbase(main):009:0> scan "shcExampleTable"
+ROW                                               COLUMN+CELL
+ row016                                           column=cf1:col1, timestamp=1490097107275, value=\xFF
+ row017                                           column=cf1:col1, timestamp=1490097107275, value=\x00
+ row018                                           column=cf1:col1, timestamp=1490097107275, value=\xFF
+ row019                                           column=cf1:col1, timestamp=1490097107275, value=\x00
+ row020                                           column=cf1:col1, timestamp=1490097107275, value=\xFF
+ row021                                           column=cf1:col1, timestamp=1490097107275, value=\x00
+ row022                                           column=cf1:col1, timestamp=1490097107275, value=\xFF
+ row023                                           column=cf1:col1, timestamp=1490097107210, value=\x00
+ row024                                           column=cf1:col1, timestamp=1490097107210, value=\xFF
+ row025                                           column=cf1:col1, timestamp=1490097107210, value=\x00
+ row026                                           column=cf1:col1, timestamp=1490097107210, value=\xFF
+ row027                                           column=cf1:col1, timestamp=1490097107210, value=\x00
+ row028                                           column=cf1:col1, timestamp=1490097107210, value=\xFF
+ row029                                           column=cf1:col1, timestamp=1490097107210, value=\x00
+ row030                                           column=cf1:col1, timestamp=1490097107210, value=\xFF
+15 row(s) in 2.1190 seconds
+
+hbase(main):010:0>
+
