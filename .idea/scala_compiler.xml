@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="rsyslogToHbase">
+      <plugins>
+        <plugin path="$MAVEN_REPOSITORY$/org/psywerx/hairyfotr/linter_2.10/0.1.17/linter_2.10-0.1.17.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
